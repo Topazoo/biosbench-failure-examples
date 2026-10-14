@@ -4,7 +4,9 @@ Small host-only Rust examples for save failures, terminal sessions, and one-use
 operations. MIT licensed, copyright 2026 Peter Swanson. No third-party crates,
 firmware images, emulators, collectors, drivers, or privileged operations.
 
-This is a local reviewed candidate. It has not been published or uploaded.
+Source: https://github.com/Topazoo/biosbench-failure-examples
+
+Companion: [BiosBench Evidence](https://github.com/Topazoo/biosbench-evidence).
 
 ## Run
 

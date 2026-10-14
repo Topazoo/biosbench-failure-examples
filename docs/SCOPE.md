@@ -1,7 +1,6 @@
 # Extraction record and limits
 
-Prepared from project sources with Peter Swanson's approval to extract and test
-these examples. The existing project MIT license is retained. No third-party
+Prepared from generic project sources. The existing project MIT license is retained. No third-party
 implementation or asset is included; the Rust/Python standard libraries are
 prerequisites, not redistributed. The UEFI test double was project test code.
 It mimics a small API surface; no uefi-rs crate source or vendor firmware is copied.
@@ -23,8 +22,7 @@ checks use an explicit file allowlist and basic private-path/key detection;
 they do not claim universal secret detection. Archive order/metadata are fixed.
 
 The repository remains `publish = false` to prevent accidental registry release.
-Further publication is a separate step. No existing repository protections were
-changed for this extraction.
+
 
 Local Linux validation passed with Rust 1.99.0: eight one-use/session tests and
 six production-save fault tests, through both the direct runner and offline Cargo.
@@ -32,5 +30,5 @@ Three unused-production-API warnings are expected from compiling the full save
 routine in its smaller host harness. No test failed. The local linker required
 an existing C runtime sysroot supplied read-only; all output/cache state stayed
 inside this package. Hosts with a normal Rust/C linker setup need no custom flags.
-The configured Linux/Windows hosted CI has not been run or published. The minimum
+The Linux/Windows hosted CI results are available in the repository Actions tab. The minimum
 declared Rust version and Windows Rust execution have not been independently tested.
