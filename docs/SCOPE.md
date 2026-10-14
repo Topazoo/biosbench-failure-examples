@@ -30,5 +30,6 @@ Three unused-production-API warnings are expected from compiling the full save
 routine in its smaller host harness. No test failed. The local linker required
 an existing C runtime sysroot supplied read-only; all output/cache state stayed
 inside this package. Hosts with a normal Rust/C linker setup need no custom flags.
-The Linux/Windows hosted CI results are available in the repository Actions tab. The minimum
-declared Rust version and Windows Rust execution have not been independently tested.
+The Linux/Windows hosted CI results are available in the repository Actions tab. Hosted Rust 1.99.0 validation passed all 14 tests on Linux and Windows:
+https://github.com/Topazoo/biosbench-failure-examples/actions/runs/38524674872
+The minimum declared Rust version has not been independently tested.
