@@ -1,5 +1,18 @@
 # BiosBench Failure Examples
 
+## Moved to BiosBench Evidence
+
+Development continues in
+[BiosBench Evidence: `examples/failure-examples/`](https://github.com/Topazoo/biosbench-evidence/tree/main/examples/failure-examples).
+Use the [unified developer guide](https://github.com/Topazoo/biosbench-evidence#rust-failure-examples)
+for current commands and the
+[migration record](https://github.com/Topazoo/biosbench-evidence/blob/main/examples/failure-examples/docs/SCOPE.md#public-repository-consolidation)
+for source provenance. The MIT license, attribution, and original source history
+remain available here so existing links keep working.
+
+This repository is retained as an archival reference. Please use the unified
+repository for new work. The documentation below describes this historical copy.
+
 Small host-only Rust examples for save failures, terminal sessions, and one-use
 operations. MIT licensed, copyright 2026 Peter Swanson. No third-party crates,
 firmware images, emulators, collectors, drivers, or privileged operations.
